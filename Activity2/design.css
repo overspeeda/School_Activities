@@ -1,0 +1,101 @@
+* {
+  font-family: Consolas;
+  font-weight: bold;
+  color: #00FF00;
+}
+  
+body {
+  background: black;
+}
+  
+.start-screen {
+  text-align: center;
+  overflow: hidden;  
+}
+
+.start {
+  background-color: black;
+  border: 5px solid #00FF00;
+  border-radius: 5px;
+  font-size: 3em;
+  display: block;
+  margin: 10px auto;
+}
+
+.start:hover {
+  cursor: pointer;
+  background-color: #00FF00;
+  color: black;
+}
+
+form{
+    width: 33.33%;
+    margin: 0px auto ;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    border-radius: 10px 10px 10px 10px;
+}
+form p{
+  text-align: center;
+}
+
+.answer{
+  font-size: 50px;
+  text-align: center;
+}
+
+.input_1{
+  background: transparent;
+  border: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #00FF00;
+  font-size: 30px;
+}
+::placeholder {
+  color: #00FF00;
+  opacity: 1; 
+}
+
+/* footer */
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 5px;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h1{
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.footer-column {
+	float: left;
+	width: 33.33%;
+
+}
+
